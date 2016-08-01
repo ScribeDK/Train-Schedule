@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Train Scheduler</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">		
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<script src="assets/javascript/jquery-3.0.0.min.js"></script>
+	</head>
+	
+	<body>
+	
+	<section class="col-md-12 title">
+	<h1>Keeping track of your train times</h1>
+	<p>So you'll aways be on time</p>
+	</section>
+	
+	
+	<section class="col-md-1 sidebar">
+	</section>
+	
+	
+	<section class="col-md-10 trainBox">
+	<p class="titleBar">Current Train Schedule:</p>
+	<section id="schedule"></section>
+	</section>
+	
+	
+	<section class="col-md-10 trainBox">
+		<p class="titleBar">Add a Train:</p>
+		<form>
+			<label for="train-name">Name of train:</label>
+			<br>
+			<input type="text" id="train-name">
+			<br>
+			<label for="train-dest">Destination:</label>
+			<br>
+			<input type="text" id="train-dest">
+			<br>
+			<label for="train-first">First train time (HH:mm - military time):</label>
+			<br>
+			<input type="text" id="train-first">
+			<br>
+			<label for="train-freq">Frequency(min):</label>
+			<br>
+			<input type="text" id="train-freq">
+			<br><br>
+			<input type="submit" value="Submit" class="btn btn-primary btn-lg addTrainInfo">
+		</form>
+		<br>
+	</section>
+	<script src="assets/javascript/main.js"></script>
+	</body>
+</html>
