@@ -127,7 +127,7 @@ function createTrains(){
 			if (minutes > 9){
 				$(".next").append(hours + ":" + minutes + "<br>");
 			}
-			//if not add one
+			//if not add '0' before
 			else{
 				$(".next").append(hours + ":0" + minutes + "<br>");
 			}
