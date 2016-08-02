@@ -131,11 +131,11 @@ function createTrains(){
 			else{
 				$(".next").append(hours + ":0" + minutes + "<br>");
 			}
-			//check when train will arrive
+			//check if train is arriving now if not show minutes till it arrives
 			if (awayTrain != 0){
 			$(".away").append(awayTrain + "<br>");
 			}
-			//if it's now give message
+			//if it is give message
 			else{
 				$(".away").append("Arriving now!<br>");
 			}
