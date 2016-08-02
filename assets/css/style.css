@@ -2,8 +2,11 @@ body {
 	
 }
 
-input{
-	margin: 2px;
+input{margin: 2px;
+	margin-left: 5px;
+}
+
+label{padding-left: 5px;
 }
 
 .title{color: white;
@@ -15,13 +18,16 @@ text-align: center;
 min-height: 500px;
 }
 
-.trainBox{border: #9009ff solid 1px;
-margin-top: 15px;	
+.trainBox{border: #5E2D79 solid 1px;
+margin-top: 15px;
+padding: 0px;	
 }
 
 .titleBar{width: 100%px;
-background: #9009ff;
+background: #5E2D79;
 color: white;
 padding-top: 5px;
+padding-left: 5px;
 padding-bottom: 5px;	
 }
+
